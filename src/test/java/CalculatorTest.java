@@ -18,7 +18,7 @@ public class CalculatorTest {
     }
 
     @Test
-    public void ShouldAddSubtractTwoValues_10And3() {
+    public void ShouldSubtractTwoValues_10And3() {
         // given
         Calculator calculator = new Calculator();
         int a = 10;
@@ -32,7 +32,7 @@ public class CalculatorTest {
     }
 
     @Test
-    public void ShouldAddMultiplyTwoValues_2And66() {
+    public void ShouldMultiplyTwoValues_2And66() {
         // given
         Calculator calculator = new Calculator();
         int a = 2;
@@ -46,7 +46,7 @@ public class CalculatorTest {
     }
 
     @Test
-    public void ShouldAddDivideTwoValues_0And7() {
+    public void ShouldDivideTwoValues_0And7() {
         // given
         Calculator calculator = new Calculator();
         int a = 0;
@@ -60,7 +60,7 @@ public class CalculatorTest {
     }
 
     @Test
-    public void ShouldAddDivideTwoValues_11And3() {
+    public void ShouldDivideTwoValues_11And3() {
         // given
         Calculator calculator = new Calculator();
         int a = 11;

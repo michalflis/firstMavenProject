@@ -1,14 +1,15 @@
 public class MinutesAndSconds {
 
     int timeInMinutes;
-    int timeInSeconds;
+
 
     public MinutesAndSconds(int timeInMinutes){
         this.timeInMinutes = timeInMinutes;
     }
 
-    public int convertMinutesToSeconds (int timeInMinutes) {
+    public static int convertMinutesToSeconds (int timeInMinutes) {
 
+        int timeInSeconds;
         return timeInSeconds = timeInMinutes * 60;
     }
 }

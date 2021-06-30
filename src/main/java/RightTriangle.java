@@ -11,7 +11,7 @@ public class RightTriangle {
     }
 
     public static boolean isTriangleRight(int a, int b, int c) {
-        return (a ^ 2) + (b ^ 2) == (c ^ 2);
+        return (a * a) + (b * b) == (c * c);
     }
 
 }

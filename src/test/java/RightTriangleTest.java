@@ -7,10 +7,8 @@ public class RightTriangleTest {
     int b;
     int c;
 
-    RightTriangle rightTriangle = new RightTriangle(a, b, c);
-
     @Test
-    public void ShouldCheckIfTriangleWithSidesABCIsRight_3_4_5() {
+    public void shouldCheckIfTriangleWithSidesABCIsRight_3_4_5() {
         //given
         a = 3;
         b = 4;
@@ -25,7 +23,7 @@ public class RightTriangleTest {
     }
 
     @Test
-    public void ShouldCheckIfTriangleWithSidesABCIsNotRight_2_4_6() {
+    public void shouldCheckIfTriangleWithSidesABCIsNotRight_2_4_6() {
         //given
         a = 2;
         b = 4;

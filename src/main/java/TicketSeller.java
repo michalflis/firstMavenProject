@@ -6,7 +6,7 @@ public class TicketSeller extends BaseEmployee {
 
     int calculateMonthlySalary() {
         if (baseSalary <= 0) {
-            baseSalary = super.DEFAULT_BASE_SALARY;
+            baseSalary = DEFAULT_BASE_SALARY;
         }
         return baseSalary;
 

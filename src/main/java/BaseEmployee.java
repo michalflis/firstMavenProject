@@ -5,8 +5,8 @@ abstract public class BaseEmployee {
     String name;
     String surname;
     int baseSalary;
-    private int yearOfEmployment;
-    final int DEFAULT_BASE_SALARY = 3000;
+    private final int yearOfEmployment;
+    final static int DEFAULT_BASE_SALARY = 3000;
     int currentYear = YearMonth.now().getYear();
 
     public BaseEmployee(String name, String surname, int baseSalary, int yearOfEmployment){
@@ -16,6 +16,13 @@ abstract public class BaseEmployee {
         this.yearOfEmployment = yearOfEmployment;
     }
 
+    public BaseEmployee(String name, String surname, int yearOfEmployment){
+        this.name = name;
+        this.surname = surname;
+        this.baseSalary = DEFAULT_BASE_SALARY;
+        this.yearOfEmployment = yearOfEmployment;
+    }
+    
     abstract int calculateMonthlySalary();
 
     public int getBaseSalary(){

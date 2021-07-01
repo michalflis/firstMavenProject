@@ -1,12 +1,12 @@
 public class CinemaSeat {
 
-    private final int SEAT_NUMBER;
-    private final int ROW_NUMBER;
+    private final int seatNumber;
+    private final int rowNumber;
     private boolean isTaken;
 
     public CinemaSeat(int seatNumber, int rowNumber, boolean isTaken) {
-        SEAT_NUMBER = seatNumber;
-        ROW_NUMBER = rowNumber;
+        this.seatNumber = seatNumber;
+        this.rowNumber = rowNumber;
         this.isTaken = isTaken;
     }
 

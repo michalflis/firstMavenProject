@@ -4,17 +4,16 @@ import org.junit.Test;
 public class MinutesAndScondsTest {
 
     int timeInMinutes;
-    MinutesAndSconds minutesAndSconds = new MinutesAndSconds(timeInMinutes);
 
     @Test
-    public void ShouldConverMinutesToSeconds_5() {
+    public void shouldConverMinutesToSeconds_5() {
         //given
 
         timeInMinutes = 5;
 
         //when
 
-        int timeInSeconds = minutesAndSconds.convertMinutesToSeconds(timeInMinutes);
+        int timeInSeconds = MinutesAndSconds.convertMinutesToSeconds(timeInMinutes);
 
         //then
 
@@ -23,14 +22,14 @@ public class MinutesAndScondsTest {
     }
 
     @Test
-    public void ShouldConverMinutesToSeconds_0() {
+    public void shouldConverMinutesToSeconds_0() {
         //given
 
         timeInMinutes = 0;
 
         //when
 
-        int timeInSeconds = minutesAndSconds.convertMinutesToSeconds(timeInMinutes);
+        int timeInSeconds = MinutesAndSconds.convertMinutesToSeconds(timeInMinutes);
 
         //then
 

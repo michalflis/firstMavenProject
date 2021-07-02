@@ -1,4 +1,4 @@
-public class WindowMessage extends Message{
+public class WindowMessage extends Message {
 
     String className = this.getClass().getSimpleName();
 

@@ -1,8 +1,8 @@
 public class WeekdayName {
 
-    public String getWeekdayName (Weekdays weekdays) {
+    public String getWeekdayName (Weekday weekday) {
 
-        switch (weekdays) {
+        switch (weekday) {
             case Monday : return "Monday";
             case Tuesday : return "Tuesday";
             case Wednesday : return "Wednesday";

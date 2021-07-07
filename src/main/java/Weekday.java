@@ -1,4 +1,4 @@
-public enum Weekdays {
+public enum Weekday {
     Monday,
     Tuesday,
     Wednesday,

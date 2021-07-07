@@ -1,7 +1,7 @@
 public class Rectangle extends Shape {
 
-    int sideA;
-    int sideB;
+    private int sideA;
+    private int sideB;
 
     public Rectangle (int sideA, int sideB) {
         this.sideA = sideA;

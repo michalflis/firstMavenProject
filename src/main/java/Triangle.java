@@ -1,8 +1,8 @@
 public class Triangle extends Shape {
 
-    int sideA;
-    int sideB;
-    int sideC;
+    private int sideA;
+    private int sideB;
+    private int sideC;
 
     public Triangle(int sideA, int sideB, int sideC) {
         this.sideA = sideA;

@@ -1,6 +1,6 @@
 public class Square implements PerimeterAndArea {
 
-    int sideA;
+    private int sideA;
 
     public Square (int sideA) {
         this.sideA = sideA;

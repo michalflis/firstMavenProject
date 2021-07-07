@@ -1,6 +1,6 @@
 public class Circle implements PerimeterAndArea {
 
-    int radius;
+    private int radius;
 
     public Circle (int radius) {
         this.radius = radius;

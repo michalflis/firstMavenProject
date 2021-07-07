@@ -6,7 +6,7 @@ public class BillCalculator {
     }
 
     public double calculate(double billValue, double service, int percentageDiscount) {
-        return (billValue + service) * (percentageDiscount / 100);
+        return (billValue + service) * (1 - percentageDiscount / 100);
 
     }
 

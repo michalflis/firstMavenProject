@@ -1,3 +1,5 @@
+package Lesson5Task1;
+
 public class TextChecker {
 
     private String givenText;
@@ -7,7 +9,7 @@ public class TextChecker {
     }
 
     boolean checkIfGivenTextContainsChars() {
-        return ! givenText.isBlank();
+        return !givenText.isBlank();
     }
 
      private String reverseGivenText() {
